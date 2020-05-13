@@ -26,7 +26,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header{ 
     margin: 2em;
     display: flex;
     align-items: center;
@@ -165,6 +165,7 @@ footer{
         color: white;
         display: flex;
         justify-content: space-between;
+        margin-top: 1em;
         .left{
             img{
                 filter: brightness(0) invert(1);
@@ -189,6 +190,7 @@ footer{
                 margin: 1em 0em;
             }
             form{
+                
                 margin-top: 1em;
                 input{
                     border: none;
